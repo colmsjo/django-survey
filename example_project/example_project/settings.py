@@ -30,6 +30,18 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['colmsjo.eu.pythonanywhere.com']
 
+
+# Permit to open the csv in excel without problem with separator
+# Using this trick : https://superuser.com/a/686415/567417
+#EXCEL_COMPATIBLE_CSV = True
+
+# The separator for questions (Default to ",")
+CHOICES_SEPARATOR = ";"
+
+# What is shown in export when the user do not answer (Default to "Left blank")
+USER_DID_NOT_ANSWER = "NAA"
+
+
 # EXCEL_COMPATIBLE_CSV = True
 TEX_DIRECTORY = "tex"
 
