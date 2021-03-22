@@ -28,7 +28,7 @@ SECRET_KEY = "hs!cby8c=^5up3v#j#cl#x$rg35_f!g8^@^dme(6b-0v2b%rsk"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['colmsjo.eu.pythonanywhere.com']
 
 # EXCEL_COMPATIBLE_CSV = True
 TEX_DIRECTORY = "tex"
