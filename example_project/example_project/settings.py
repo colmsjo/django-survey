@@ -16,7 +16,8 @@ import os
 # logging.basicConfig(level=logging.DEBUG, format="%(name)s.%(funcName)s() l.%(lineno)s -\033[32m %(message)s \033[39m")
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# CSV_DIRECTORY = Path(__file__).parent.parent.joinpath("csv")
+#CSV_DIRECTORY = '/home/colmsjo/django-survey/example_project/csv'
+CSV_DIRECTORY = '/home/colmsjo/csv'
 # TEX_DIRECTORY = Path(__file__).parent.parent.joinpath("tex")
 
 # Quick-start development settings - unsuitable for production
